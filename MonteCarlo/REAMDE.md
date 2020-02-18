@@ -5,7 +5,7 @@ Para la ejecucion de el metodo monte carlo se generan numeros de manera aleatori
 
 Para por ejemplo realizar el calculo de la integral se hara uso de esta formula.
 
-$I ≈  \frac{N_debajo}{N_total}(b-a)M$
+$I ≈  \frac{N_{debajo}}{N_{total}}(b-a)M$
 
 Al hacer millones de calculos el programa se ralentiza si lo hacemos de una manera iterativa. Por eso es que se usan vectores para realizar los calculos de manera mas rapida operando en los mismos datos con una sola instruccion.
 
